@@ -34,6 +34,13 @@ sudo cat auth.log | grep "error" | tail | nl
 
 ```
 
-sudo cat ayth.log | grep "error" | head -30
+sudo cat auth.log | grep "error" | head -30
 
 ```
+Для чтения больших файлов используем не cat, a more:
+
+```
+sudo more auth.log
+```
+Если жмем ENTER, в терминале логи будут выводиться построчно. 
+Если жмем ПРОБЕЛ на клавиатуре, то логи будут выводиться в терминале постранично.
