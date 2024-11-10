@@ -18,3 +18,7 @@ cat
 sudo cat auth.log | grep "error"
 
 ```
+```
+sudo cat ayth.log | grep "error" | tail
+
+```
