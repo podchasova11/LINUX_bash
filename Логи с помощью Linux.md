@@ -22,3 +22,10 @@ sudo cat auth.log | grep "error"
 sudo cat ayth.log | grep "error" | tail
 
 ```
+Попросить права пользователя, пойти на сервер и посмотреть log-и, это обычная работа тестировщика.
+
+Можно пронумеровать все строки логов:
+```
+sudo cat auth.log | grep "error" | tail | nl
+
+```
