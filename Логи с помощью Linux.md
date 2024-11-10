@@ -29,3 +29,11 @@ sudo cat ayth.log | grep "error" | tail
 sudo cat auth.log | grep "error" | tail | nl
 
 ```
+Вместо tail можно проверить начало, это - head. По умолчанию эти утилиты выводят по 10 строк, чтобы вывести например 30 строк, 
+пишем флаг -30
+
+```
+
+sudo cat ayth.log | grep "error" | head -30
+
+```
